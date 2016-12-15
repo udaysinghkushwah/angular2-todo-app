@@ -3,14 +3,13 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
-describe('AppComponent', () => {
+describe('App: Todos2', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent
       ],
     });
-    TestBed.compileComponents();
   });
 
   it('should create the app', async(() => {
